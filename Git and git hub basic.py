@@ -23,6 +23,100 @@
          		B. Push 
          		C. Pull
          		
+         		
+         		
+         		
+         		
+    1. Configure git     ---- when you open your git then confirm that your git is configure, if you check youu configuration then command--
+  
+  							git config --global user.name
+  							git config --global user.email or 
+  							git config -l                      [its much easy to see all information]
+  							
+  	   if, the configuration is not yet properly then configure it first by command given below:
+  	      
+  	                        git config --global user.name "userName"
+  	                        git config --global user.email"userEmail"
+  	                        
+  2. Git initialize   ------  if you want to initialize a folder then make a folder and then command git init then git always follow your
+     creating directory : 
+  
+                            git init or
+                            git init .         [if you need all folder initialize]
+                            
+  3. Git add for staging area : ----  if you want to add file in your local git repository then command git add then it go to then
+     staging area .
+  
+                            git add .         [  . for all file in the current directory ]
+                            git add -A           [ it also for all  add]
+                            git add 'fileName which you want add'       [ individual] 
+                            
+                            
+  4. Git commit : ----  if you want to commit some file in the local repository then command :
+  
+                            git commit -m "write your commit masssage"    [must write your commit massage for next correction and update] 
+                            git log            [for see commit id ,details,author name etc]
+                            git commit --amend -m "and your specific changing in your file massage write here"
+                              
+                              
+  5. you must make ssh key on your git hub account by using git hub assistance,
+  
+  
+  6. Git push : 
+  
+                           git remote add origin 'copy paste the remote repository address'
+                           git push -u origin main 
+                           git push -u origin master 
+                           
+                           
+  7. Git log : if you see the details of git commit id number and then command :-
+  
+                           git log 
+                           git log --oneline 
+                           git log show 
+                           git log checkout 
+                           
+                           
+  8. Git pull or clone : if you want to clone someone github file then copy the repository ip and then command ::
+  
+                           git pull 'copy paste the others repository link'
+                           git clone 'copy paste the others repository link'
+                           
+                           
+  9. Git branch : if your 3 guys works in a projects and the projects in default master/main branch. and you wanrt to submit your codding
+     in another branch cause the main file is master app file so if you push your codding on a branch then projects manager test then
+     merge the main or master file its to easy to work remotely with few dev:
+  
+                           git branch                         [if you see how much branches have in the repository]
+                           git branch 'branchName'            [if you want to create a new branch on be half of master repo]
+                           git checkout 'branchName' [if you want to commit on you branch then go to the created branch with this command]
+                           git checkout -            [if you want to go again your past branch]
+                           git push -u origin 'branchName'  [if you want to push you file on your created branch]
+                           git checkout -b 'branchName'      [if you want to create and switch a branch in one command]  
+                           git branch -d 'branchName'       [if you delete any branch then use this command]
+                           
+                           
+                           
+ 10. Pull request:  if you want to getting a pull request its most important thing in github for work together in one file 
+     cause when you call a pull request then you send some description about your changes and you select you code viewer or manager 
+     also you create some lebel like bug, question, if your pull request is valid and there have no conflicts or bugs then project
+     manager or lead engineer merge the pull request and then he/she merge it 
+     
+     [basically merge is depends on pull request first of all you create a branch for didnt destroy your master file then your
+     correction push to the branch and then create a pull request with reviewer and description and level, cause this is the pointer of
+     a lead engineer to merge your pull request]
+     
+     [if your pull request and merge complete then command git log --oneline - then you cant see the new file cause you want to 
+     pull the file again then command -- git pull and then again command -- git log --oneline and see the magic tan tana ]
+     
+     
+ 11. Git rebase : 
+ 
+ 
+ 
+
+///git hub theke branch delete kora == git push origin -d branchName
+         		
 **** git init = command create a new repository ****
 **** git clone = when you command clone then you clone a repository then basically you create a copy of the original repository in your machine ****
 **** git fork = when you fork a repository then a copy will be available on your github accounts ****
@@ -158,11 +252,6 @@ then local repository ager ta hoye jabe
 
 
 
-
-
-
-
-
 **** kono file branch theke master e merge korte chaile amake obossoi master brach e switch korte hobe , command = git checkout master 
 
 
@@ -172,7 +261,6 @@ then merge korte chaile simply command === git merge branch name
 
 **** branch delete korar command === git branch -d branchName 
 
-///git hub theke branch delete kora == git push origin -d branchName
-                       
-                       
+
+
                        
