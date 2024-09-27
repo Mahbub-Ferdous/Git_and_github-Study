@@ -263,4 +263,9 @@ then merge korte chaile simply command === git merge branch name
 
 
 
+
+# here almost all the git command we use day to day life in our life 
+
+
+
                        
